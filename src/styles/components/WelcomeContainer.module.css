@@ -1,0 +1,51 @@
+.welcomecontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/icons/react.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.welcomecontainer > h2  {
+ font-size: 5rem;
+ font-family: 'Inter';
+ color: white;
+ padding-bottom: 20px;
+}
+
+.welcomecontainer button {
+    position: flex;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    margin: 50px;
+    border: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    background: linear-gradient(#2980B9,#6DD5FA);
+    color: white;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    opacity: 0.8;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.welcomecontainer button:hover {
+    background: linear-gradient(#373B44,#4286f4);
+    opacity: 5;
+    color: white;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    border: 0;
+   
+}
+
+.welcomecontainer > div {
+    margin: 400px;
+}

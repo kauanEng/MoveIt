@@ -1,0 +1,47 @@
+.profileContainer {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.profileContainer > img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 40%);
+    position: relative;
+    border: 2px solid #fff;
+    object-fit: cover;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid var(--blue-dark);
+    border-top-color:black;
+    border-right-color: rgba(0, 255, 76, 0.664);
+    
+
+}
+
+.profileContainer div {
+    margin-left: 1.5rem;
+}
+
+.profileContainer div strong {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.profileContainer div p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.profileContainer div p img {
+    margin-right: 0.5rem;
+}
+
+
+
+
