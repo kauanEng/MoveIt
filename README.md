@@ -5,3 +5,5 @@
 <p align="center">🚀Projeto que ajuda os Devs a se exercitar</p>
 <p align="center">
 </p>
+
+Construido em Reactjs, biblioteca do JS
